@@ -1,0 +1,31 @@
+.header {
+    grid-area: header;
+    display: grid;
+    grid-template-columns: 180px 1fr 180px;
+    border-bottom: solid 4px #00000020;
+  }
+  
+  .header > .search {
+    display: grid;
+    padding: 3px;
+  }
+
+  .header > .left-menu {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: left;
+  }
+
+  .header > .left-menu .menu-icon {
+    width: 100px;
+    margin: 30px;
+    height: 25px;
+  }
+
+  .header > .search .search-bar {
+    border-radius: 3px;
+    background-color: rgb(251, 247, 247);
+    padding: 1px;
+    font-size: 16px;
+  }
